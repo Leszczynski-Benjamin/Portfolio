@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>Projet - Ohmyfood</title>
+    <link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+    <div id="cursor"></div>
+    <!-- Overlay Menu Mobile -->
+
+    <nav id="nav-mobile">
+      <div id="header-menu">
+        <img
+          src="./assets/images/Logo-Menu.svg"
+          id="logo-menu"
+          alt="Cercle de couleur blanche qui contient la lettre B majuscule et l minuscule en violet."
+        />
+
+        <a href="#">
+          <svg
+            id="icon-exit-menu"
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M30 10L10 30"
+              stroke="white"
+              stroke-width="4"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M10 10L30 30"
+              stroke="white"
+              stroke-width="3.33333"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </a>
+      </div>
+      <ul>
+        <li><a class="navLinks" href="./index.html">Home</a></li>
+        <li><a class="navLinks" href="./index.html#projets">Projects</a></li>
+        <li><a class="navLinks" href="https://drive.google.com/file/d/1xgMd4aGNC8j3RGLo7Zv3ZZo2E9xQbKYS/view?usp=sharing" target="_blank">CV</a></li>
+      </ul>
+      
+      <div id="social-menu">
+        <a href="https://www.linkedin.com/in/benjamin-leszczynski/" target="_blank">
+          <svg
+            id="icon-linkedin-menu"
+            width="28"
+            height="28"
+            viewBox="0 0 28 28"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18.6666 9.33331C20.5231 9.33331 22.3036 10.0708 23.6164 11.3836C24.9291 12.6963 25.6666 14.4768 25.6666 16.3333V24.5H21V16.3333C21 15.7145 20.7541 15.121 20.3165 14.6834C19.879 14.2458 19.2855 14 18.6666 14C18.0478 14 17.4543 14.2458 17.0167 14.6834C16.5791 15.121 16.3333 15.7145 16.3333 16.3333V24.5H11.6666V16.3333C11.6666 14.4768 12.4041 12.6963 13.7169 11.3836C15.0296 10.0708 16.8101 9.33331 18.6666 9.33331Z"
+              stroke="white"
+              stroke-width="2.04167"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M7.00004 10.5H2.33337V24.5H7.00004V10.5Z"
+              stroke="white"
+              stroke-width="2.04167"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M4.66671 6.99998C5.95537 6.99998 7.00004 5.95531 7.00004 4.66665C7.00004 3.37798 5.95537 2.33331 4.66671 2.33331C3.37804 2.33331 2.33337 3.37798 2.33337 4.66665C2.33337 5.95531 3.37804 6.99998 4.66671 6.99998Z"
+              stroke="white"
+              stroke-width="2.04167"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          </a>
+          <a href="mailto:leszczynskibenjamin@gmail.com">
+          <svg
+            id="icon-mail-menu"
+            width="28"
+            height="28"
+            viewBox="0 0 28 28"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M23.3334 4.66669H4.66671C3.37804 4.66669 2.33337 5.71136 2.33337 7.00002V21C2.33337 22.2887 3.37804 23.3334 4.66671 23.3334H23.3334C24.622 23.3334 25.6667 22.2887 25.6667 21V7.00002C25.6667 5.71136 24.622 4.66669 23.3334 4.66669Z"
+              stroke="white"
+              stroke-width="2.04167"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M25.6667 8.16669L15.2017 14.8167C14.8415 15.0424 14.4251 15.162 14 15.162C13.575 15.162 13.1586 15.0424 12.7984 14.8167L2.33337 8.16669"
+              stroke="white"
+              stroke-width="2.04167"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          </a>
+      </div>
+    </nav>
+    <header>
+      <div class="header_nav" id="home">
+        <img
+          src="./assets/images/Logo.svg"
+          id="logo"
+          alt="Cercle de couleur violet qui contient la lettre B majuscule et l minuscule en blanc."
+        />
+        <nav>
+          <audio id="hover-sound" src="./assets/other/marker-line.mp3"></audio>
+          <ul>
+            <li>
+              <a href="./index.html" class="nav-1">
+                <svg
+                  width="278"
+                  height="57"
+                  viewBox="0 0 278 57"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    opacity="0.7"
+                    d="M52.4131 54.0535C45.5814 48.7915 5.92249 58.2982 2.41905 56.8599C-0.27859 55.0007 -0.699003 18.4823 1.05271 12.9046C1.68333 10.9401 2.55919 10.5542 4.87146 11.2208C7.63917 12.2381 41.8327 7.57244 53.1137 6.16923C53.8144 7.25672 55.2859 3.36283 55.7063 4.73095C56.5471 6.73051 133.728 1.43342 135.9 1.36326C139.684 1.22294 136.741 3.43299 141.155 2.59106C150.579 0.83706 171.25 2.97694 178.362 1.22294C184.107 -0.180262 185.333 -0.215342 190.834 1.2931C195.633 2.59106 226.289 2.59106 229.862 0.345939C230.738 -0.285503 231.368 -0.00486195 231.333 0.80198C231.333 0.87214 241.774 2.06486 241.844 2.06486C247.099 2.6963 252.354 3.46807 252.389 3.78379C252.494 4.59063 253.125 5.01159 253.755 4.52047C254.877 3.67855 277.474 2.76646 277.649 5.15191C278.209 11.9925 273.059 40.3022 270.081 47.0375C266.963 54.1939 253.58 44.5118 241.739 48.125C181.97 44.2662 189.853 45.1783 177.24 47.8093C175.944 45.3186 170.969 51.2121 167.886 46.8972C166.625 45.1432 157.551 44.7222 155.554 46.4762C154.713 47.2129 142.662 46.4762 130.294 46.371C117.892 46.2658 105.105 46.8621 102.863 49.3177C93.2981 45.1081 57.1427 53.2116 52.378 54.0185L52.4131 54.0535Z"
+                    fill="#81D9A0"
+                  />
+                </svg>
+                Home</a
+              >
+            </li>
+            <li>
+              <a href="./index.html#projets" class="nav-1" 
+                ><svg
+                  width="278"
+                  height="57"
+                  viewBox="0 0 278 57"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    opacity="0.7"
+                    d="M52.4131 54.0535C45.5814 48.7915 5.92249 58.2982 2.41905 56.8599C-0.27859 55.0007 -0.699003 18.4823 1.05271 12.9046C1.68333 10.9401 2.55919 10.5542 4.87146 11.2208C7.63917 12.2381 41.8327 7.57244 53.1137 6.16923C53.8144 7.25672 55.2859 3.36283 55.7063 4.73095C56.5471 6.73051 133.728 1.43342 135.9 1.36326C139.684 1.22294 136.741 3.43299 141.155 2.59106C150.579 0.83706 171.25 2.97694 178.362 1.22294C184.107 -0.180262 185.333 -0.215342 190.834 1.2931C195.633 2.59106 226.289 2.59106 229.862 0.345939C230.738 -0.285503 231.368 -0.00486195 231.333 0.80198C231.333 0.87214 241.774 2.06486 241.844 2.06486C247.099 2.6963 252.354 3.46807 252.389 3.78379C252.494 4.59063 253.125 5.01159 253.755 4.52047C254.877 3.67855 277.474 2.76646 277.649 5.15191C278.209 11.9925 273.059 40.3022 270.081 47.0375C266.963 54.1939 253.58 44.5118 241.739 48.125C181.97 44.2662 189.853 45.1783 177.24 47.8093C175.944 45.3186 170.969 51.2121 167.886 46.8972C166.625 45.1432 157.551 44.7222 155.554 46.4762C154.713 47.2129 142.662 46.4762 130.294 46.371C117.892 46.2658 105.105 46.8621 102.863 49.3177C93.2981 45.1081 57.1427 53.2116 52.378 54.0185L52.4131 54.0535Z"
+                    fill="#81D9A0"
+                  /></svg
+                >Projects
+              </a>
+            </li>
+            <li>
+              <a href="https://drive.google.com/file/d/1xgMd4aGNC8j3RGLo7Zv3ZZo2E9xQbKYS/view?usp=sharing" target="_blank" class="nav-1"
+                ><svg
+                  width="278"
+                  height="57"
+                  viewBox="0 0 278 57"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    opacity="0.7"
+                    d="M52.4131 54.0535C45.5814 48.7915 5.92249 58.2982 2.41905 56.8599C-0.27859 55.0007 -0.699003 18.4823 1.05271 12.9046C1.68333 10.9401 2.55919 10.5542 4.87146 11.2208C7.63917 12.2381 41.8327 7.57244 53.1137 6.16923C53.8144 7.25672 55.2859 3.36283 55.7063 4.73095C56.5471 6.73051 133.728 1.43342 135.9 1.36326C139.684 1.22294 136.741 3.43299 141.155 2.59106C150.579 0.83706 171.25 2.97694 178.362 1.22294C184.107 -0.180262 185.333 -0.215342 190.834 1.2931C195.633 2.59106 226.289 2.59106 229.862 0.345939C230.738 -0.285503 231.368 -0.00486195 231.333 0.80198C231.333 0.87214 241.774 2.06486 241.844 2.06486C247.099 2.6963 252.354 3.46807 252.389 3.78379C252.494 4.59063 253.125 5.01159 253.755 4.52047C254.877 3.67855 277.474 2.76646 277.649 5.15191C278.209 11.9925 273.059 40.3022 270.081 47.0375C266.963 54.1939 253.58 44.5118 241.739 48.125C181.97 44.2662 189.853 45.1783 177.24 47.8093C175.944 45.3186 170.969 51.2121 167.886 46.8972C166.625 45.1432 157.551 44.7222 155.554 46.4762C154.713 47.2129 142.662 46.4762 130.294 46.371C117.892 46.2658 105.105 46.8621 102.863 49.3177C93.2981 45.1081 57.1427 53.2116 52.378 54.0185L52.4131 54.0535Z"
+                    fill="#81D9A0"
+                  /></svg
+                >CV</a
+              >
+            </li>
+          </ul>
+
+          <ul class="social-liste">
+            <li>
+              <a href="https://www.linkedin.com/in/benjamin-leszczynski/" target="_blank" class="nav-2">
+                <svg
+                  id="icon-linkedin-nav"
+                  width="28"
+                  height="28"
+                  viewBox="0 0 28 28"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.6666 9.33331C20.5231 9.33331 22.3036 10.0708 23.6164 11.3836C24.9291 12.6963 25.6666 14.4768 25.6666 16.3333V24.5H21V16.3333C21 15.7145 20.7541 15.121 20.3165 14.6834C19.879 14.2458 19.2855 14 18.6666 14C18.0478 14 17.4543 14.2458 17.0167 14.6834C16.5791 15.121 16.3333 15.7145 16.3333 16.3333V24.5H11.6666V16.3333C11.6666 14.4768 12.4041 12.6963 13.7169 11.3836C15.0296 10.0708 16.8101 9.33331 18.6666 9.33331Z"
+                    stroke="black"
+                    stroke-width="2.04167"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M7.00004 10.5H2.33337V24.5H7.00004V10.5Z"
+                    stroke="black"
+                    stroke-width="2.04167"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M4.66671 6.99998C5.95537 6.99998 7.00004 5.95531 7.00004 4.66665C7.00004 3.37798 5.95537 2.33331 4.66671 2.33331C3.37804 2.33331 2.33337 3.37798 2.33337 4.66665C2.33337 5.95531 3.37804 6.99998 4.66671 6.99998Z"
+                    stroke="black"
+                    stroke-width="2.04167"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:leszczynskibenjamin@gmail.com" target="_blank" class="nav-2">
+                <svg
+                  id="icon-mail-nav"
+                  width="28"
+                  height="28"
+                  viewBox="0 0 28 28"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M23.3334 4.66669H4.66671C3.37804 4.66669 2.33337 5.71136 2.33337 7.00002V21C2.33337 22.2887 3.37804 23.3334 4.66671 23.3334H23.3334C24.622 23.3334 25.6667 22.2887 25.6667 21V7.00002C25.6667 5.71136 24.622 4.66669 23.3334 4.66669Z"
+                    stroke="black"
+                    stroke-width="2.04167"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M25.6667 8.16669L15.2017 14.8167C14.8415 15.0424 14.4251 15.162 14 15.162C13.575 15.162 13.1586 15.0424 12.7984 14.8167L2.33337 8.16669"
+                    stroke="black"
+                    stroke-width="2.04167"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <svg
+          id="icon-burger-menu"
+          width="40"
+          height="40"
+          viewBox="0 0 40 40"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g clip-path="url(#clip0_50_93)">
+            <path
+              d="M6.66663 20H33.3333"
+              stroke="#450D6D"
+              stroke-width="4"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M6.66663 10H33.3333"
+              stroke="#450D6D"
+              stroke-width="4"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M6.66663 30H33.3333"
+              stroke="#450D6D"
+              stroke-width="4"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </g>
+          <defs>
+            <clipPath id="clip0_50_93">
+              <rect width="40" height="40" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+      </div>
+      </header>
+      <section class="section-projet">
+        <div class="box-gif">
+          <img src="./assets/images/laptop_realistic.jpg" alt="" id="laptop">
+          <img src="./assets/images/ezgif-2-83a74935c3.gif" alt="" id="gif-ohmyfood">
+        </div>
+         
+       
+
+        <div class="box-text">
+          <h2> Intégration du site fictif Ohmyfood</h2>
+          <p>Dans le cadre de ma formation OpenClassrooms, j'ai réalisé l'intégration du site Ohmyfood, un restaurant fictif, en HTML et SCSS. Ce projet m'a permis de transformer une maquette statique en une expérience utilisateur fluide et moderne.</p>
+          <p>J'ai ajouté des animations pour dynamiser l'interface, rendant la navigation plus engageante et immersive. L'objectif était de renforcer mes compétences en intégration web tout en apportant ma touche personnelle à l'animation et à l'interactivité.
+          </p>
+          <a href="https://leszczynski-benjamin.github.io/Ohmyfood/" target="_blank">Voir le site</a>
+        </div>
+      </section>
+      <footer>
+        <p>
+          Merci d'avoir visité mon portfolio ! <br />
+          N'hésitez pas à me contacter pour avancer ensemble.
+        </p>
+        <div class="social-menu">
+          <a href="https://www.linkedin.com/in/benjamin-leszczynski/" target="_blank">
+          <svg
+            class="icon-linkedin"
+            width="28"
+            height="28"
+            viewBox="0 0 28 28"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18.6666 9.33331C20.5231 9.33331 22.3036 10.0708 23.6164 11.3836C24.9291 12.6963 25.6666 14.4768 25.6666 16.3333V24.5H21V16.3333C21 15.7145 20.7541 15.121 20.3165 14.6834C19.879 14.2458 19.2855 14 18.6666 14C18.0478 14 17.4543 14.2458 17.0167 14.6834C16.5791 15.121 16.3333 15.7145 16.3333 16.3333V24.5H11.6666V16.3333C11.6666 14.4768 12.4041 12.6963 13.7169 11.3836C15.0296 10.0708 16.8101 9.33331 18.6666 9.33331Z"
+              stroke="white"
+              stroke-width="2.04167"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M7.00004 10.5H2.33337V24.5H7.00004V10.5Z"
+              stroke="white"
+              stroke-width="2.04167"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M4.66671 6.99998C5.95537 6.99998 7.00004 5.95531 7.00004 4.66665C7.00004 3.37798 5.95537 2.33331 4.66671 2.33331C3.37804 2.33331 2.33337 3.37798 2.33337 4.66665C2.33337 5.95531 3.37804 6.99998 4.66671 6.99998Z"
+              stroke="white"
+              stroke-width="2.04167"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          </a>
+          <a href="mailto:leszczynskibenjamin@gmail.com">
+          <svg
+            class="icon-mail"
+            width="28"
+            height="28"
+            viewBox="0 0 28 28"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M23.3334 4.66669H4.66671C3.37804 4.66669 2.33337 5.71136 2.33337 7.00002V21C2.33337 22.2887 3.37804 23.3334 4.66671 23.3334H23.3334C24.622 23.3334 25.6667 22.2887 25.6667 21V7.00002C25.6667 5.71136 24.622 4.66669 23.3334 4.66669Z"
+              stroke="white"
+              stroke-width="2.04167"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M25.6667 8.16669L15.2017 14.8167C14.8415 15.0424 14.4251 15.162 14 15.162C13.575 15.162 13.1586 15.0424 12.7984 14.8167L2.33337 8.16669"
+              stroke="white"
+              stroke-width="2.04167"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          </a>
+        </div>
+      </footer>
+    <script src="js/script.js" defer></script>
+</body>
+</html>
