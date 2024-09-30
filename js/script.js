@@ -21,11 +21,15 @@
 
     exitMenuMobile.addEventListener("click", ()=>{
       menuMobile.classList.toggle("translate-mobile");
+      menuMobile.style.display = 'none';
+
     })
 
 
     menuBurger.addEventListener("click", ()=>{
       menuMobile.classList.toggle("translate-mobile");
+      menuMobile.style.display = 'flex';
+
     })
 
     navLinks.forEach(link => {
